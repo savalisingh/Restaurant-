@@ -1,0 +1,9 @@
+for background I am going to use image and apply gradient effect or transition or animation
+and going to add footer and header
+for bottons hover to size improve
+ 
+for buttons they will on top and image changes 
+about us page 
+contact us page gradient effect and hover effect and logo
+menu page include types veg or non-veg drinks 
+css is going to have 2 3 file 1 common css for all  
