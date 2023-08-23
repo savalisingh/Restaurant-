@@ -1,9 +1,37 @@
-for background I am going to use image and apply gradient effect or transition or animation
-and going to add footer and header
-for bottons hover to size improve
- 
-for buttons they will on top and image changes 
-about us page 
-contact us page gradient effect and hover effect and logo
-menu page include types veg or non-veg drinks 
-css is going to have 2 3 file 1 common css for all  
+Main/Style css file:
+to colect all similar file at one place so i don't have to repeat my code 
+difining body and navigation bar and hover and animation effect 
+
+Index/Home page: 
+for background I am going to use image and apply gradient effect.
+going to add nav bar inside header which will have sing in and login button.
+for bottons hover to size improve and color change
+for 3 link buttons, they will be on top of image with hover effect
+and going to redirected to respective page
+
+Menu page:
+menu page menu type is: Crisp and Tasty Bites(breakfast) , Bold Flavors, Big Platesse( main course)
+(Divine Dessert Discoveries)desert, (Sip with a Twist Choices)drinks
+i want it look like card
+i am giving it hover effect to text
+and animation to container where size will be incresing and decresing but it will also have hover effect
+
+Contact us page:
+it will have liear-gradient effect inside contact us container which will also have hover effect
+form will have name, email , city, phone no. and message box
+then submit button also have hover effect
+
+About us page:
+here i am using 3 color in shade inside linear gradient to left  as background 
+i am going to use one image on top of it i am going to add text in center 
+then about page will have 
+1.our vision 
+2.our mission 
+3.why choose us? using unorder list type circle for pointer 
+
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                             
