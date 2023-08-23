@@ -1,0 +1,82 @@
+/* Background using linear gradient */
+body {
+  /* Applying linear gradient for the background */
+  background-image: linear-gradient(
+    to left,
+    rgba(36, 118, 103, 0.5),
+    rgb(119, 7, 7),
+    rgba(111, 102, 38, 0.5)
+  );
+}
+
+/* Styling for main text content */
+.text {
+  font-size: large;
+  font-family: "Dancing Script", cursive;
+  text-align: left;
+  margin: 2%;
+  padding-left: 5%;
+}
+
+/* Align content center within sections */
+.section {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/* Styling for main headings */
+h1 {
+  color: #dfd8a8;
+  font-family: "Lugrasimo", cursive;
+}
+/* Aligning content in center within intro section */
+.intro {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+/* Styling for image container */
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+/* Styling for images */
+img {
+  border-radius: 10px;
+}
+
+/* Styling for text positioned on top of image */
+.item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(
+    29,
+    26,
+    26,
+    0.587
+  );
+  /* Background color with transparency */
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Resetting paragraph margin */
+p {
+  margin: 0;
+}
+
+/* Styling for subheadings */
+h3 {
+  font-family: "Satisfy", cursive;
+  color: rgb(2, 7, 31);
+  text-decoration: underline;
+  margin: 0;
+}
+/* Styling for unordered lists */
+ul {
+  list-style-type: circle;
+}
