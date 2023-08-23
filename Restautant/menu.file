@@ -1,0 +1,66 @@
+/* Text styles */
+.text {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #dbca31;
+  font-family: "Dancing Script", cursive;
+  margin: 0;
+}
+/* Highlighting of menu */
+.text h2 {
+  font-family: "Lugrasimo", cursive;
+  color: red;
+  background-color: yellow;
+}
+/* Container and collection styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+/* Collection styles */
+.collection {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Responsive columns      */
+  gap: 2%;
+  align-content: center;
+  justify-content: center;
+}
+/* Item styles */
+.item {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  overflow: hidden;
+  border-radius: 5%;
+  padding: 2px;
+  background-color: rgba(26, 25, 25, 0.676);
+  border: solid 1px rgba(111, 107, 107, 0.562);
+}
+/* Styling for imgage of item */
+.item img {
+  width: 200px;
+  max-width: 100%;
+  overflow: hidden;
+  margin-bottom: 2px;
+  min-height: 200px;
+  border-radius: 5%;
+}
+/* Hover animations */
+.item:hover {
+  animation-name: size;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+/* Hover effect for text of item */
+.item .text:hover {
+  color: azure;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .collection {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
