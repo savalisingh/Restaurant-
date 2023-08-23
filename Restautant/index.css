@@ -1,0 +1,62 @@
+/* Text styles */
+.text {
+  font-size: 20px;
+  font-family: "Indie Flower", cursive;
+  margin: 5%;
+}
+
+/* Highlighting name of restaurant */
+.text h1 {
+  padding: 0;
+  margin: 0;
+  font-family: "Shadows Into Light", cursive;
+  color: rgba(231, 220, 97, 0.927);
+}
+
+/* Resturent styles */
+.restuarant {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Animation for photo */
+.photo {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  animation-name: size;
+  animation-duration: 2s;
+  animation-iteration-count: calc(1);
+}
+
+/* Styling for photo image */
+.photo img {
+  width: 70%;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 20px 20px 0 0;
+}
+
+/* Links styles */
+.links {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+  gap: 2%;
+  margin-top: auto;
+  position: relative;
+  bottom: 5%;
+}
+
+/* Styling for links buttons */
+.links button {
+  color: rgb(230, 204, 58);
+}
+
+/* Hover effect for links buttons */
+.links button:hover {
+  background-color: rgba(19, 56, 4, 0.932);
+}
