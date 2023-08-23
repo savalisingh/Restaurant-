@@ -1,13 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact page</title>
-</head>
-<body>
-    <div>
-        
-    </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contactus.css" />
+
+    <!-- google font link to change font-family  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha384-oGfBkF8Iz4YTMY2bP35h7H6s93ZKHdH5HpW48EjzDf/p4mUka2MlY8OZjUEfZ9b"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- header of page -->
+    <header>
+      <!-- navigation bar  -->
+      <nav>
+        <div>
+          <a href="index.html"><button>Home</button></a>
+          <a href="menu.html"><button>Menu</button></a>
+          <a href="aboutus.html"><button>About us</button></a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main content of the page -->
+    <main>
+      <div class="container">
+        <!-- Heading of the page -->
+        <h1 class="text">Contact us</h1>
+        <!-- Form for user information -->
+        <form class="contact-container">
+          <input type="text" name="name" placeholder="name" /> <!-- Input for name -->
+          <input type="email" name="email" placeholder="@Email" /><!-- Input for email -->
+          <select name="city" id=""><!-- Select for city -->
+            <option value="" disabled selected>city</option><!-- City options -->
+            <option value="mumbai">Mumbai</option>
+            <option value="delhi">Delhi</option>
+            <option value="bangalore">Bangalore</option>
+            <option value="hyderabad">Hyderabad</option>
+            <option value="chennai">Chennai</option>
+            <option value="kolkata">Kolkata</option>
+            <option value="ahmedabad">Ahmedabad</option>
+            <option value="pune">Pune</option>
+            <option value="jaipur">Jaipur</option>
+            <!-- Add more cities as needed -->
+          </select>
+          <input type="tel" name="phone" placeholder="+91" /><!-- Input for phone -->
+          <textarea
+            name="text"
+            cols="21"
+            rows="3"
+            placeholder="address...."
+          ></textarea><!-- Textarea for address -->
+          <textarea
+            name="text"
+            id=""
+            cols="21"
+            rows="6"
+            placeholder="message to write"
+          ></textarea> <!-- Textarea for message -->
+          <input type="submit" id="submit" name="submit" id="" /><!-- Submit button -->
+        </form>
+      </div>
+    </main>
+    
+    <footer>
+      <hr>
+      <!-- Additional footer content can go here -->
+    </footer>
+  </body>
 </html>
