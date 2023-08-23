@@ -1,0 +1,56 @@
+/* Background using linear gradient and fixed attachment */
+body {
+  background-attachment: fixed; /* to fixe at center of page  */
+  background-position: center;
+}
+
+/* Text styles */
+.text {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* Container styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Contact form container styles */
+.contact-container {
+  width: 250px;
+  display: grid;
+  grid-template-columns: 200px;
+  grid-template-rows: 40px;
+  align-content: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    rgba(130, 77, 36, 0.692),
+    rgb(14, 95, 14)
+  ); /* Dual-color container background */
+}
+
+/* Form input styles */
+input,
+select,
+textarea {
+  border: none;
+  font-size: 15px;
+  border-radius: 5px;
+  margin: 3%;
+  font-family: "Caveat", cursive;
+  background-color: rgb(229, 235, 235);
+}
+
+/* Form container hover effect */
+.contact-container:hover {
+  background-image: linear-gradient(rgb(14, 95, 14), rgba(130, 77, 36, 0.692));
+}
+
+/* Submit button hover effect */
+#submit:hover {
+  background-color: rgb(14, 177, 241);
+  font-weight: bold;
+}
